@@ -2,8 +2,6 @@
 
 Design tests for Analytics functionality on a Battery Monitoring System.
 
-Fill the parts marked '_enter' in the **Tasks** section below.
-
 ## Analysis-functionality to be tested
 
 This section lists the Analysis for which _tests_ must be written.
@@ -20,8 +18,6 @@ Analysis must be done on this csv file to find the following:
 A PDF report of the analysis must be stored every week.
 Notification must be sent when a new report is available.
 
-## Tasks
-
 ### List Dependencies
 
 List the dependencies of the Analysis-functionality.
@@ -34,7 +30,7 @@ List the dependencies of the Analysis-functionality.
 
 ### Mark the System Boundary
 
-What is included in the software unit-test? What is not? Fill this table.
+What is included in the software unit-test? What is not? 
 
 | Item                      | Included?     | Reasoning / Assumption
 |---------------------------|---------------|---
@@ -49,9 +45,7 @@ Notification utility        | Yes		      	| Email to be sent if report is availa
 
 ### List the Test Cases
 
-Write tests in the form of `<expected output or action>` from `<input>` / when `<event>`
-
-Add to these tests:
+Template -> `<expected output or action>` from `<input>` / when `<event>`
 
 1. Write minimum and maximum to the PDF from a csv containing positive and negative readings
 2. Write "Invalid input" to the PDF when the csv doesn't contain expected data
@@ -63,10 +57,6 @@ Add to these tests:
 
 
 ### Recognize Fakes and Reality
-
-Consider the tests for each functionality below.
-In those tests, identify inputs and outputs.
-Enter one part that's real and another part that's faked/mocked.
 
 | Functionality            | Input        				    | Output                      | Faked/mocked part
 |--------------------------|--------------------------|-----------------------------|---
